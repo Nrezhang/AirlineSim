@@ -6,12 +6,14 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.cache import cache_control
 import pymysql
 
+
 db = pymysql.connect(
     host="localhost",
     user="root",
-    password= "root",
+    password= "Topsham4$2@",
     db = "airline",
 )
+
 # Create your views here.
 def index(response, id):
     pass
@@ -21,10 +23,16 @@ def index(response, id):
 def home(response):
     return render(response, 'airline/home.html')
 
-def login(request):
+def userlogin(request):
+    cursor = db.cursor()
     if request.user.is_authenticated:
         return render(request)
     else:
-        messages.info(request, "Please login to continue")
+       # messages.info(request, "Please login to continue")
         return HttpResponseRedirect('/')
-    def 
+    
+
+def stafflogin(request):
+    pass
+def agentlogin(request):
+    pass
