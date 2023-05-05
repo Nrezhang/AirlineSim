@@ -82,7 +82,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'Topsham4$2@',  # Change this to your MySQL password
+        'PASSWORD': '*',  # Change this to your MySQL password
     }
 }
 
