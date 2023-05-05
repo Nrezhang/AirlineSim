@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'airline.apps.AirlineConfig',
+    'customer.apps.CustomerConfig',
+    'staff.apps.StaffConfig',
+    'agent.apps.AgentConfig',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +85,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': '*',  # Change this to your MySQL password
+        'PASSWORD': 'Topsham4$2@',  # Change this to your MySQL password
     }
 }
 
