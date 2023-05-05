@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-
+#from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,7 +82,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'root',  # Change this to your MySQL password
+        'PASSWORD': 'Topsham4$2@',  # Change this to your MySQL password
     }
 }
 

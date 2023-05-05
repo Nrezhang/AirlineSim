@@ -284,4 +284,5 @@ yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
 zict==2.0.0
 zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
 zope.event==4.5.0
+python-decouple==3.8
 zope.interface @ file:///opt/concourse/worker/volumes/live/8c2d4bd1-6406-47f0-45ce-890992bafbf6/volume/zope.interface_1625036159007/work
